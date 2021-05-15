@@ -1,0 +1,29 @@
+Primeiro programa 
+
+print ('Hello word ')
+
+onde digitar isso ?
+ 
+Modo interativo - utilzado para testes
+ - no terminal digite python 
+    - vai mostra a versao do gcc e do python e o sistema operacional. 
+    - o ">>>" indica que vc esta no modo interativo , basta escrever os comandos.
+ 
+print () - é uma funcao para imprimir na tela . 
+uma mensagem deve estar entre aspas simples ('') ou as pas duplas ("").
+
+Modo Script - utilizado para desenvolver. 
+ - caracteristica é que o arquivo termina em (*.py) - extensao .py
+ - para executar , apenas faca --> python nome.py
+
+O python compila automaticamente (bastidores)
+
+--> Caso queira fazer MANUALMENTE 
+  - comando import - importa o modulo py_compile que disponibiliza a funcao compile().
+  - caso queira compilar todos use - compileall
+		ex : python -m compile all 
+			python -m py_compile programa.py
+
+Sempre que um programa em python é criado , ele cria um bytecode e executa,
+caso não exista , ele cria esse bytecode , que a acelera o script, e executa com pvm (python virtual machine) 
+python sempre tenta procurar o bytecode
