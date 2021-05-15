@@ -1,0 +1,19 @@
+ python pode guadar valores um uma variável. 
+variávle faz referencia a um valor. 
+
+Comando de atribuição é o igual (=). 
+
+Basta colocar o nome da variavel no terminal , que o valor guardado aparece. 
+
+ - identificador = tipo de dado 
+ex : mensagem = 'arthur de arauj'
+     pi = 3.14
+     mensagem1 = 3
+
+ 
+As variáveis que intercalaçao do underscore (_) - sao conheciddas como snake case.
+para criar variaveis precisa sequir um padrão e nao usar palavra chave
+
+Palavra chave = palavra reservada que o proprio python usa.
+
+
