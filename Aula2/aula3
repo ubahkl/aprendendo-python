@@ -1,0 +1,23 @@
+Interpretador 
+
+- Python linguagem interpretada e linguagem de script. 
+-interpretador x compilador 
+
+- Compilador 
+  -traduz a linguagem python em uma linguagem de máquina. 
+  -o código python é traduzido em um código intermediário que é executado pelo PVM (python virtual machine)
+  -outro jeito seria traduzir os programas em python em bytecode.
+
+Interpretador 
+ - interpretador faz essa 'traducao' em tempo real. 
+ - interrompe o programa no primeiro erro
+ - instrucao por instrucao 
+
+Compilador 
+ - traduz o programa inteiro em código de máquina e depois executa , criando um arquivo executável. 
+ - gera um relatorio de erros. 
+ - arquivo completo
+
+O processo de compilação é feito automaticamente (Cpython)
+
+

@@ -1,0 +1,10 @@
+ - Módulo Future 
+
+O módulo future do Python2 contém bibliotecas que fazem uma ponte entre as versões
+anteriores e as mais recentes. Basta importar e biblioteca future:
+
+>>> import __future__
+
+Para que várias ferramentas disponíveis na versão 3 funcionem na versão 2, ou seja, o módulo __future__
+funcionalidades permite usar funcionalidades do Python3 no Python2. Mas cuidado, algumas são sobrescritas e é importante sempre checar a documentação:
+https://docs.python.org/3/library/\_\_future\_\_.html (link)
