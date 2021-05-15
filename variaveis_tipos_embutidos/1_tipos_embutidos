@@ -1,0 +1,16 @@
+string - indetificavel por aspas (simples e duplas). 
+numero - não precisa de aspas
+
+- caso não tenha certeza qual é o tipo utilize a funca : type()
+	type('hello') ou type(2)
+
+- String é abreviado (str) e inteiro int (integer), numeros decimais conhecidos como float (numeros com 
+ponto flutuante)
+ex: type(3.2)
+
+Se estar delimitado por aspas o interpretador entende como string.
+
+O python tem o tipo de número complexo - real + imag j
+ex - 2 + 3j
+
+ 
