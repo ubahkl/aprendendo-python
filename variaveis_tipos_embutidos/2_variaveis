@@ -16,4 +16,106 @@ para criar variaveis precisa sequir um padrão e nao usar palavra chave
 
 Palavra chave = palavra reservada que o proprio python usa.
 
+=====================================================================================
+
+Operadores Aritméticos
+
+  Fazer calculo utiliza -> +,-,*,/, **
+
+  // -> representa a divisão inteira 
+  % -> resto da divisão entre dois números inteiros
+  ** -> 2**3 = 2 elevado a 3 
+=====================================================================
+
+Strings (texto)
+
+1 - O  operador + com string , funciona concatenando string 
+ex : >>> texto1 = 'oi'
+     >>> texto2 = 'Python'
+     texto1 + texto2
+     oiPython
+2 - O operador (*) multiplica as strings 
+ex : >>> texto1 = 'python '
+     >>> texto1 * 3
+     python python python
+* note a presenca dos espacos. - Para separar a palavra e não ficar grudada.
+
+Strings possuem funcionalidades prontas chamadas de métodos. 
+
+upper() - retorna o texto em maiusculas
+capitalize() - retorna com a primeira letra em maiúscula
+
+ex : 
+texto1 = "python"
+texto1.upper() ou print (texto1.upper())
+
+Outras funcionalidades : 
+https://docs.python.org/3/library/stdtypes.html#string-methods
+
+====================================================================================
+
+Entrada do Usuário 
+
+python tem uma função que captura a entrada de valores = a funcao input()
+
+input() - o programa espera o usuário digitar agum dado.
+
+nome = input("Digite o nome do curso \n")
+dado = input("Digite o numero")
+print (nome) e print (dado)
+
+
+Função = format() 
+	ex : print ("O número digitado foi {}".format(numero))
+
+A funcao format() vai subtituir {} pela variável que vc quer  , útil quando vc tem várias variáveis.
+
+ex : 
+
+nome = input("Digite seu nome \n")
+idade = input("Digite sua idade \n")
+print ("Seu nome é {} e sua idade é {}".format(nome,idade))
+
+
+*obs - existem diversos tipos de (.format()) 
+Para ponto flutuante é interresante utilizar --> {:.2f:}
+Exemplo:
+>>> x = 245.2346
+>>> print('{:.2f}'.format(x))
+    245.23
+
+O :.2f diz que queremos apenas duas casas decimais para a variável x .
+
+==================================================================================
+=====================================================================================
+
+Constantes 
+
+constantes são valores que não mudam 
+
+- true , false , none , são exemplos de constantes e palavra chave 
+
+true(verdadeiro) e false(falso) são valores booleanos.
+
+- Python tambem tem a funcao bool() - retorna true quando o argumento e verdadeiro 
+e retorna false quando o argumento e falso. 
+
+operador (==) é usado para comparação. 
+
+** = e diferente ==**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
