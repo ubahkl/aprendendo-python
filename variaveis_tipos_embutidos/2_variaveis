@@ -97,12 +97,109 @@ constantes são valores que não mudam
 
 true(verdadeiro) e false(falso) são valores booleanos.
 
-- Python tambem tem a funcao bool() - retorna true quando o argumento e verdadeiro 
-e retorna false quando o argumento e falso. 
+- Python tambem tem a funcao bool() - retorna true quando o argumento passado é verdadeiro 
+e retorna false quando o argumento passado é falso. 
 
 operador (==) é usado para comparação. 
 
 ** = e diferente ==**
+
+Podemos utilizar > e < , para verificar se é maior ou menor.
+bool() -> retornar false ou true. 
+
+
+Operadores de Comparação 
+
+==, >,<, >= , <= , !=(difirente)
+
+Operadores que retornam valores booleanos !!
+
+- a is b                   true, se a e b são indenticos
+- a is not b               true , se a e b não sao identicos
+- a in b                   true , se a é membro de b
+- a not in b               true , se a não é menbro de b 
+
+== e is são duas coisa diferentes !
+
+Tudo em python é um objeto é cada objeto tem referencia na memória. 
+
+===========================================================================
+===========================================================================
+
+--- Comando IF 
+
+if (condicao):
+	print ("")
+else:
+print ("")
+
+outro modo:
+
+if (condicao):
+print
+elif(condicao):
+print
+elif(condicao):
+print
+
+------------------
+condicao = (expressao == expressao2)
+
+=============================================
+=============================================
+
+---WHILE
+
+se vc quer repetir um código ou laço.
+sintaxe : while (condicao):
+		print
+
+
+OBS************** identacao para o comandos (if , elif , else, while), se não funciona !!!
+
+==============================================================================================
+==============================================================================================
+
+Comando FOr 
+
+loop for -> definir valor inicial e final que o loop incrementa automaticamente , com a funda range() 
+
+Sintaxe : para variavel em uma serie de valores :
+		faca algo 
+
+sintaxe em python : 
+	for rodada in range(1, 10):
+		print("")
+
+#Podemos definir um step(passo) é um intervalo entre os elementos.
+por padrão(default) é 1. 
+
+exemplo : 
+for rodada in range(1,10,2):
+	print (rodada)
+...
+...
+1
+3
+5
+7
+9
+
+##cada interação o laco pula dois passos (incrementa 2).
+
+for rodada in [1,2,3,4,5,6,7,8,9,10]:
+	print (rodada)
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
 
 
 

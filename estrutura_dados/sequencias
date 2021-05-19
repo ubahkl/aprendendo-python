@@ -1,0 +1,155 @@
+Lista = sequencia de valores. 
+numero = [1,2,3,4,5]
+
+sequencias = containers
+
+tipos de sequência 
+
+- list(lista), tuple(tupla), range(objeto de intervalo) e strings(textos)
+
+- sequencias podem ser mutavéis ou imutavéis: 
+imutáveis não podem ter seus valores modificados.
+
+Tuplas , strings , ranges = imutaveis
+Listas = mutavéis
+
+==============================================================================
+==============================================================================
+
+- Listas
+
+- sequencia de valores onde cada valor é identificador por um índice = 0. 
+- qualquer tipo de dado.
+- lista pode ser heterogeneas
+- vc pode acessar a lista pelo indice , lembrando que comeca pelo zero. 
+
+
+lista = [1,2,3,4,5]
+lista = [0,1,2,3,4] = índice
+lista[0], lista[1] = indice
+
+lista = ['arthur', 'craveiro', 'safira', 'governo']
+
+lista = list('python')
+
+>>> ['p', 'y', 't', 'h', 'o', 'n']
+
+funcao append() => 
+
+lista.append("") -> adiciona/inseri o dado na lista , uma por vez. 
+lista.extend() -> ??????????????????????
+
+===============================================================================
+===============================================================================
+
+- Tuplas 
+  
+- Imutável = é uma sequencia que não pode ser alterada ou modificada.
+- O delimitador é um parênteses 
+- Os parenteses são opcionais , mas a vírgula é sim !
+- Não é possivel adicionar(append) e nem mudar(=).
+- vantagem = usadas como chave de dicionario
+
+
+
+ex :
+texto = 'python'
+tuple(texto)
+'('p', 'y', 't', 'h', 'o', 'n')
+
+==================================================================================
+==================================================================================
+
+Range 
+
+- tipo imutável de números. 
+- usadas em looping (lacos).
+- comando for. 
+- vc pode incluir o step(passo)
+
+range(1,10,2)
+range(incio,fim,passo = 2)
+
+sintaxe = range(inicio,fim)
+- o fim não é incluido na sequência !!!!!
+ex:
+>>> for valor in range(1, 3):
+...
+print(valor)
+...
+1
+2
+
+====================================================================================
+====================================================================================
+====================================================================================
+
+-- Conjutos 
+
+- conjunto = coleção não ordenada e que não admite elementos duplicados. 
+
+criar conjuntos ==> chaves{} ou a funcao set() 
+
+ex : 
+	frutas = {'laranja', 'banana', 'uva', 'pera', 'banana'}
+	frutas
+
+Onde é usado isso ?????
+	- usado para associação e eliminação de entradas duplicadas.
+	- operações matematicas = união , interseção , diferença
+
+- Transformar um texto em conjunto com a função set(). 
+
+a = set('banana')
+a 
+{'b', 'a', 'n'}
+
+===================================================================================
+===================================================================================
+
+Dicionário 
+
+- São estrutura utilizadas para acessar elementos atraves de chaves e não por sua posição.
+- Qualquer chave de um dicionário é associada (ou mapeada) a um valor.
+- não eh possivel acessar o dicionario por meio do indice 
+- devemos acessar por meio da chave. 
+
+>>> pessoa = {'nome': 'João', 'idade': 25, 'cidade': 'São Paulo'}
+>>> pessoa
+	'nome': 'João', 'idade': 25, 'cidade': 'São Paulo'
+
+- as chaves são nome, idade, cidade , os valores podem ser qualquer tipo de dado , string, int,float
+
+==> Caso precisa adicionar alguma chave :
+	pessoa['pais'] = 'Brasil'
+
+- Para ver as chaves , apenas digite
+
+>>> "dicionário".keys()
+
+- Para retornar seuas valores digite :
+ 
+>>> "dicionario".values()
+
+- Usando a funcao dict()
+
+ >>> a = dict(um=1, dois=2, três=3)
+ >>> a
+	{'três': 3, 'dois': 2, 'um': 1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

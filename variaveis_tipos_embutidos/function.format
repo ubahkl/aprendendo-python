@@ -1,0 +1,13 @@
+nome = input("Digite su nome :")
+idade = input("Digite sua idade :")
+
+print ("Seu nome é {} e sau idade é {}".format(nome,idade))
+
+Isso é um exemplo de variável e entrada de dados ão mesmo tempo, com a funcao format !
+
+obs: a funcao (.format) tem vários modos seque  link para saber mais 
+https://docs.python.org/3/library/string.html#string.Formatter.
+
+obs: o format vc pode controle o número flutuante 
+exemplo : 
+{:2.f}

@@ -1,0 +1,46 @@
+Listas 
+
+estrutura de dados que guarda mais de um valor  == list (lista)
+
+- Para criar uma lista utilize o colchetes ([]):
+
+valores []
+type(valores)
+<class 'list'>
+
+ex : 
+valores = [0,1,2,3,4]
+
+min(valores)
+>>> 0
+max(valores)
+>>> 4 
+
+- Podemos acessar o valor específico como ??
+
+valores = [0,1,2,3,4]
+
+valores[2]
+>>> 2
+
+valores[0]
+>>> 0
+
+- Para mudar o valor dentra da lista ?? 
+
+valores = [0,1,2,3,4]
+
+valores[0] = 4
+
+[4,1,2,3,4]
+
+- Possível saber o tamanho da lista :
+
+valores = [0,1,2,3,4]
+len(valores)
+>>> 5 
+
+
+
+
+
