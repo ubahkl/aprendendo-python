@@ -1,0 +1,94 @@
+- Função 
+########## EStudar o que siginfica (is not)!
+- FUnção é uma sequencia de instrucoes que computa um ou mais resultados que chamamos de parametros.
+ex : print (), type(), format().
+- Podemos criar nossa própria função. 
+
+ex: f(espaco, tempo) = espaco/tempo
+velocidade(espaco,tempo) = espaco / tempo
+velocidade(100/20) = 100/20 = 5 
+
+comando def = criar funcão(def)
+-----------------------------------
+- def velocidade(espaco,tempo):   -
+-	pass                      - 
+-----------------------------------
+
+comando def -> indica função 
+velocidade = nome da função 
+(espaco,tempo) = parâmetros passados
+A funcão tem escopo e um bloco de instrução, onde vem os calculos 
+identação = 4 espacos a direita.
+
+palavra pass = usado para dizer ao interpretador que definiremos os cálculos depois. 
+pass = pode ser usado nos blocos , if , while, for e def. 
+
+As funções podem ser reutilizadas em qualquer parte do programa !
+
+ex : 
+	def oi():
+		print ("Oi !")
+
+	oi()
+        >>> Oi !
+==========================================================================================
+==========================================================================================
+
+- Parâmetros de função !
+
+- uma lista com nenhum ou mais elementos.
+- podem ser obrigatórios ou opcionais. 
+- opcional é atribuido um valor padrão(default) = none.
+- valor None é usado como padrão !
+
+===========================================================================================
+===========================================================================================
+
+- Função com Retorno !
+
+- Caso a função precise retornar algum valor , utilizamos a nossa função (return).
+ex : 
+def velocidade(espaco, tempo):
+	v = espaco/tempo
+	return v 
+print (velocidade(100,20))
+>>> 5
+
+ou 
+
+resultado = velocidade(100, 20)
+print (resultado)  == >>> 5.0 
+=================================================================================
+
+- Numa função podemos ter mais de um return, porem a função so retorna um retorno. 
+
+def dados(nome, idade=None):
+	if (idade is not None):
+		return ('nome: {} \nidade: {}'.format(nome, idade))
+        else:
+		return ('nome: {} \nidade: não informada'.format(nome))
+
+teste = dados('arhtur',20)
+print (teste)
+>>> nome: arthur 
+>>> idade: não informada
+
+====================================================================================
+========================================================================================
+
+- Retornando múltiplos valores !
+
+- retornar dois valores ão mesmo tempo 
+- usar o laco for com função. 
+
+def calculadora(x, y):
+	return x+y, x-y
+
+print (calculadora(1, 2))
+#(3, 1)
+=================================================================================
+=================================================================================
+
+- Número arbitrário de parâmetros (*ARGS)
+
+- Z

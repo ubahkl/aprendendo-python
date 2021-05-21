@@ -32,6 +32,7 @@ lista = ['arthur', 'craveiro', 'safira', 'governo']
 
 lista = list('python')
 
+>>> print (lista)
 >>> ['p', 'y', 't', 'h', 'o', 'n']
 
 funcao append() => 
@@ -107,7 +108,7 @@ a
 ===================================================================================
 ===================================================================================
 
-Dicionário 
+- Dicionário 
 
 - São estrutura utilizadas para acessar elementos atraves de chaves e não por sua posição.
 - Qualquer chave de um dicionário é associada (ou mapeada) a um valor.
@@ -137,19 +138,28 @@ Dicionário
  >>> a
 	{'três': 3, 'dois': 2, 'um': 1}
 
+=================================================================================
+=================================================================================
+
+- Operadores na tabela : 
+
+	- in , not in , s[i] , s + t = concatenação de s + t, s[i:j], s[i:j:k]
 
 
+=================================================================================
+=================================================================================
 
+lista = [1,2,3,4,5,6]
 
+print (lista[0:3]) = ira mostra os 3 primeiros valores da lista.
 
+print (lista[:2]) = mesmo comportamento, ira mostra os dois primeiros valores da lista. 
 
+lista = ['arthur','craveiro','samuel','safira','safira','lista']
 
-
-
-
-
-
-
+print (lista[5:]) = mostra apenas o ultimo valor
+print (lista[1:]) = exclui o primeiro elemento e mostra o resto. 
+print (lista[3:]) = exclui os tres elementos e mostra o resto
 
 
 
